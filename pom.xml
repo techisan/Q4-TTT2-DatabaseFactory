@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>database-connection-starter</artifactId>
+    <artifactId>database-connection-solution</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>database-connection-starter</name>
-    <description>database-connection-starter</description>
+    <name>database-connection-solution</name>
+    <description>database-connection-solution</description>
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -42,6 +42,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.reflections</groupId>
+            <artifactId>reflections</artifactId>
+            <version>0.9.12</version>
         </dependency>
     </dependencies>
 
