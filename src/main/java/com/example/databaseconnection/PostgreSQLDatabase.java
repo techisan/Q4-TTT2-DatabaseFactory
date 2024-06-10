@@ -1,4 +1,4 @@
-package com.example.databaseconnectionstarter;
+package com.example.databaseconnection;
 
 public class PostgreSQLDatabase extends Database {
     private String databaseName;

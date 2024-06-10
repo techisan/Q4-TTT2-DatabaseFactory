@@ -1,4 +1,4 @@
-package com.example.databaseconnectionstarter;
+package com.example.databaseconnection;
 
 public class MongoDBDatabase {
     private String databaseName;
