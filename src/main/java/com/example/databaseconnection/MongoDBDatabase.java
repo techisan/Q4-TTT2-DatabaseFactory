@@ -1,17 +1,13 @@
 package com.example.databaseconnection;
 
-public class MongoDBDatabase {
-    private String databaseName;
+public class MongoDBDatabase extends Database {
+    
     public MongoDBDatabase(String databaseName) {
-        this.databaseName = databaseName;
-    }
-
-    public String getDatabaseName() {
-        return databaseName;
+        super(databaseName);
     }
 
     public void databaseConnection() {
-        //Implement the logic to connect MongoDB Database
+        // Implement the logic to connect to MongoDB Database
         System.out.println("Connecting to MongoDB Database");
     }
 
