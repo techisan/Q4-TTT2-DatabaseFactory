@@ -1,7 +1,7 @@
 package com.example.databaseconnection;
 
 public class MongoDBDatabase extends Database {
-    
+
     public MongoDBDatabase(String databaseName) {
         super(databaseName);
     }
